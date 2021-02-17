@@ -95,7 +95,7 @@ select distinct(city),max(creation_Date) from fixedlength_file group by city
 ```
  
 
-Question 5: 
+Question 5: Table Join
 --------------------
 
 _a. select t1.id, t1.name, t2.title from table1 t1 left join table2 t2 on t1.id = t2.id;_
@@ -157,7 +157,7 @@ null  |null    |Engineer
 null  |null    |Analyst 
 
 
-Question 6.
+Question 6. Wrangling
 ----------------------
 
 **Potential problems:**
@@ -165,7 +165,7 @@ Question 6.
 - comma delimiter to load PostalAddress - can change the ',' to other signal letter like '|' to avoid split the address field into seperate values.
 
 
-Question 7.
+Question 7. Build Query
 ------------------------
 
 
@@ -200,7 +200,7 @@ WHERE a.mm > 7
 ```
 
 
-Question 8:  Write a query to add a column(sequence_num) in above table. The column should not have null values and the values should be auto increased.
+Question 8:  Add a column(sequence_num) ;auto increased.
 ---------------------
 
 
@@ -215,16 +215,15 @@ Question 9: ER diagram
 --------------------
  
 
-![ER Diagram]((image/ER_Diagram.jpg) 
+![ER Diagram](image/ER_Diagram.jpg) 
 
  
 
 Question 10: 
 -------------------
 
-Assume that you have a column with data type varchar with length 10 but you received a file with data length of 13 for that column. How will you solve this issue to load this file in the table?
 
-Change the table properties
+**Change the table properties**
 
 ```
 
