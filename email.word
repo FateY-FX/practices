@@ -1,14 +1,61 @@
-1. Complexity & Multiple Scenarios in MSP
-From what I’ve learned so far, the MSP environment presents a number of complex scenarios:
-
-Multiple Accounts: Beyond the most complex account I described above, we have at least three other accounts, each with their own unique access request patterns, group naming conventions, and process variations. Achieving automation will require us to unify formats and standardize processes across all accounts.
-
-Access Types: Different access types require different license levels and must be matched with specific security groups. Each group often follows its own naming pattern, with clear restrictions on which groups can or cannot be joined for a given license type.
-
-Onshore vs Offshore: The visibility of security groups (and sometimes even the available access types) varies depending on whether the user is onshore or offshore. This adds another layer of conditional logic for automation.
-
-Access Type + Onshore/Offshore Combination: The rules can change significantly based on the combination of access type and user location, leading to multiple unique scenarios that need to be handled differently.
-
-Form Variations: Some domains have standardized request forms and catalog items; others have customized or legacy forms, and a few domains lack dedicated access request items entirely.
-
-Process & Documentation Gaps: Approval flows, field requirements, and triggers are not standardized, and some processes are undocumented or ad hoc.
+Hi Fei 
+Hey Venkata
+ 
+How are you today?
+ Not bad thanks and you? How is your leg? 
+I'm fine thanks.
+ 
+My big toe is still recovering... still waiting for my new X-ray result.
+ I hope you get well soon What have you been working on now? 
+Thanks a lot!
+ 
+Just sent out some emails for request
+ 
+Plan to do my 65 hours learning from now  
+ 
+Yu, Fei 
+Just sent out some emails for request
+How many requests? And what type of requests?
+ 
+2-3 requests I believe about login access and permission stuffs
+ Amrutam, Venkata
+Good Just checking in, how’s the progress going on the access provisioning flow automation? Let me know if you’ve hit any roadblocks or need support to move things forward. 
+Yes, I am still working on the Catalog Item so far. I do think I need some help and guidance as it is a MSP instance bit complex than normal scenarios. I will let you know by today for any support.
+ 
+looking forward to it.  
+ 
+Sure thing Venkata. I will summarize my thoughts and share with you. 
+ Thank you very much 
+can i see a demo?
+ 
+It is a draft one, I don't think it works https://empiredaudev.service-now.com/now/workflow-studio/builder%3Ftable%3Dsys_hub_flow%26sysId%3De…
+Empired Service Management
+ 
+my dev access is not working
+ 
+can you check and fix it please?\
+ 
+?
+ 
+Hi Venkata, I'm currently tied up with some tickets and draft email to client. I will working on it and share you my summary as soon as I can. Appreciate your patience. Thanks.
+ No worries, thank you 
+No problems.
+ 
+Amrutam, Venkata
+my dev access is not working
+Yep, I've saw your access ticket this morning.
+ 
+Yu, Fei
+Yep, I've saw your access ticket this morning.
+my access ticket?
+ 
+Yep, for your DEV access I think.
+ Oh, ok 
+who raised it?
+ 
+nitesh?
+ 
+I don't really remember it now, but I think it led by interaction record.
+ 
+ohh
+ 
