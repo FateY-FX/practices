@@ -1,0 +1,14 @@
+1. Complexity & Multiple Scenarios in MSP
+From what I’ve learned so far, the MSP environment presents a number of complex scenarios:
+
+Multiple Accounts: Beyond the most complex account I described above, we have at least three other accounts, each with their own unique access request patterns, group naming conventions, and process variations. Achieving automation will require us to unify formats and standardize processes across all accounts.
+
+Access Types: Different access types require different license levels and must be matched with specific security groups. Each group often follows its own naming pattern, with clear restrictions on which groups can or cannot be joined for a given license type.
+
+Onshore vs Offshore: The visibility of security groups (and sometimes even the available access types) varies depending on whether the user is onshore or offshore. This adds another layer of conditional logic for automation.
+
+Access Type + Onshore/Offshore Combination: The rules can change significantly based on the combination of access type and user location, leading to multiple unique scenarios that need to be handled differently.
+
+Form Variations: Some domains have standardized request forms and catalog items; others have customized or legacy forms, and a few domains lack dedicated access request items entirely.
+
+Process & Documentation Gaps: Approval flows, field requirements, and triggers are not standardized, and some processes are undocumented or ad hoc.
